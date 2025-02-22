@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="spotify.png" alt="icon">
+            <span>Spotify</span>
+        </div>
+        <div class="menu">
+            <a href="#home">Home</i></a>
+            <a href="#menu">About</i></a>
+        </div>
+    </nav>
+    <main class="content-main">
+        <div>
+            <div class="quote-bar">
+                <h2>All start's here ...</h2>
+                <img src="spotifylogo.webp" alt="namewithlogo">
+            </div>
+            <div class="browsing">
+                <h4>Start browsing</h4>
+                <div class="music-cards">
+                    <div class="box music">
+                        <h5>Music</h5>
+                    </div>
+                    <div class="box podcasts">
+                        <h5>podcasts</h5>
+                    </div>
+                </div>
+                <h4>Browsing All</h4>
+                <div class="all"></div>
+                <div class="allsongs">
+                    <h5>All songs</h5>
+                        <div class="songs-list">
+
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <div class="music-bar">
+        <div class="side-img">
+            <img id="playing-img" src="" alt="Song Image" width="50">
+            <p id="playing-name">Song Name</p>
+        </div>
+        <div class="music-controls">
+            <input type="range" name="musicbar" value="0" id="musicsilde">
+            <div class="run-time">
+            <span id="current-time" style="color: bisque; font-size: 8px;">0:00</span>
+            <span id="total-time" style="color: bisque; font-size: 8px;">0:00</span>
+            </div>
+            <div class="buttons">
+                <i class="icon fa-solid fa-backward-step" id="bkbtn"></i>
+                <i class="icon fa-solid fa-circle-play" id="masterPlay"></i>
+                <i class="icon fa-solid fa-forward-step" id="ntbtn"></i>
+            </div>
+        </div>
+    </div>
+
+    
+        <script src="script.js"></script>
+</body>
+
+</html>
